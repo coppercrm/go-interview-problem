@@ -8,7 +8,7 @@ You have decided to implement a revolutionary new game!  Realising that you only
 * You can assume that the input is always correct.
 
 
-![alt tag](https://raw.github.com/coppercrm/go-interview-problem/master/Board.png)
+![Board](https://raw.githubusercontent.com/coppercrm/go-interview-problem/main/Board.png)
 
 A player can issue a set of commands to the game which will result in an output of
 the location and direction of the piece after the moves.  You choose to use the output format X Y Direction, so a piece that has moved two squares right and one north and is facing north would be in position 2 1 N.  Commands are either a request to move forward (M) or to turn left (L) or right (R) by 90 degrees.
@@ -18,6 +18,6 @@ You come up with the following example inputs for a board of size 5.
 
 | Input | Output | Diagram | Notes |
 | ------ | -------- | ------- | ----------|
-| MRMLMRM | 2 2 E | ![alt tag](https://raw.github.com/coppercrm/go-interview-problem/master/First%20Table%20Board.png) | | 
-| RMMMLMM | 3 2 N | ![alt tag](https://raw.github.com/coppercrm/go-interview-problem/master/Second%20Table%20Board.png) | |
-| MMMMM | 0 4 N | ![alt tag](https://raw.github.com/coppercrm/go-interview-problem/master/Third%20Table%20Board.png) | Moves to the top square and then attempts to make one further move north|
+| MRMLMRM | 2 2 E | ![Example Boar 1](https://raw.githubusercontent.com/coppercrm/go-interview-problem/main/First%20Table%20Board.png) | | 
+| RMMMLMM | 3 2 N | ![Example Boar 2](https://raw.githubusercontent.com/coppercrm/go-interview-problem/main/Second%20Table%20Board.png) | |
+| MMMMM | 0 4 N | ![Example Boar 3](https://raw.githubusercontent.com/coppercrm/go-interview-problem/main/Third%20Table%20Board.png) | Moves to the top square and then attempts to make one further move north|
